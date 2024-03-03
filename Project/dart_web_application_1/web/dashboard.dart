@@ -9,9 +9,7 @@ void main() {
     event.preventDefault();
 
     String docName = (querySelector('#name') as InputElement).value!;
-
     String designation = (querySelector('#des') as InputElement).value!;
-
     String areaOfPractice = (querySelector('#area') as InputElement).value!;
 
     records = {
